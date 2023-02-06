@@ -4,9 +4,9 @@ import repoblacion.modelo.Bosque;
 import repoblacion.utilidades.Consola;
 
 public class MainApp {
-
+	private static Bosque bosque;
 	public static void main(String[] args) {
-		Bosque bosque;
+		
 		try {
 			int ancho = Consola.leerAnchura();
 			int alto = Consola.leerAltura();
